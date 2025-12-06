@@ -1,0 +1,3566 @@
+[
+  {
+    "question": "How is wind considered in the take-off performance data of the Aeroplane Operations Manuals?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Unfactored headwind and tailwind components are used."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Not more than 80% headwind and not less than 125% tailwind."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Since take-offs with tailwind are not permitted, only headwinds are considered"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Not more than 50% of a headwind and not less than 150% of the tailwind."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What will be the influence on the aeroplane performance if aerodrome pressure altitude is increased?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "It will increase the take-off distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "It will decrease the take-off distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "It will increase the take-off distance available."
+      },
+      {
+        "isCorrect": false,
+        "choice": "It will increase the accelerate stop distance available."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The required Take-off Distance (TOD) and the field length limited Take-off Mass (TOM) are different for the zero flap case and take-off position flap case. What is the result of flap setting in take-off position compared to zero flap position?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Increased TOD required and decreased field length limited TOM."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increased TOD required and increased field length limited TOM."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decreased TOD required and decreased field length limited TOM."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Decreased TOD required and increased field length limited TOM."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The take-off distance available is:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "the total runway length, without clearway even if this one exists."
+      },
+      {
+        "isCorrect": true,
+        "choice": "the length of the take-off run available plus the length of the clearway available."
+      },
+      {
+        "isCorrect": false,
+        "choice": "the runway length minus stopway."
+      },
+      {
+        "isCorrect": false,
+        "choice": "the runway length plus half of the clearway."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "During take-off, the thrust of a fixed pitch propeller:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "increases slightly while the aeroplane speed builds up"
+      },
+      {
+        "isCorrect": false,
+        "choice": "varies with mass changes only."
+      },
+      {
+        "isCorrect": false,
+        "choice": "has no change during take-off and climb."
+      },
+      {
+        "isCorrect": true,
+        "choice": "decreases while the aeroplane speed builds up."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What will be the effect on an aeroplane’s performance if aerodrome pressure altitude is decreased?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "It will increase the take-off distance required"
+      },
+      {
+        "isCorrect": false,
+        "choice": "It will increase the take-off ground run."
+      },
+      {
+        "isCorrect": true,
+        "choice": "It will decrease the take-off distance required."
+      },
+      {
+        "isCorrect": false,
+        "choice": "It will increase the accelerate stop distance."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The take-off distance of an aircraft is 800m in a standard atmosphere with no wind and at 0 ft pressure altitude. Using the following corrections: ± 20 m / 1 000 ft field elevation – 5 m / kt headwind + 10 m / kt tail wind ± 15 m / % runway slope ± 5 m / °C deviation from standard temperature The take-off distance from an airport at 2 000 ft elevation, temperature 21°C, QNH 1013.25 hPa, 2% up-slope, 5 kt tail wind is:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "810 m"
+      },
+      {
+        "isCorrect": true,
+        "choice": "970 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "890 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "870 m"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An uphill slope:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "increases the take-off distance more than the accelerate stop distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases the accelerate stop distance only."
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases the take-off distance only."
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the allowed take-off mass."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Other factors remaining constant and not limiting, how does increasing pressure altitude affect allowable takeoff mass?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Allowable take-off mass remains uninfluenced up to 5000 ft pressure altitude."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Allowable take-off mass decreases."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Allowable take-off mass increases."
+      },
+      {
+        "isCorrect": false,
+        "choice": "There is no effect on allowable take-off mass"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "In reality, the net thrust of a jet engine at constant RPM:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "does not change with changing altitude."
+      },
+      {
+        "isCorrect": false,
+        "choice": "is independent of the airspeed."
+      },
+      {
+        "isCorrect": true,
+        "choice": "decreases with the airspeed."
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases with the airspeed."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following are to be taken into account for the runway in use for take-off?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Airport elevation, runway slope, standard temperature, pressure altitude and wind components."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Airport elevation, runway slope, outside air temperature, standard pressure and wind components."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Airport elevation, runway slope, outside air temperature, pressure altitude and wind components."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Airport elevation, runway slope, standard temperature, standard pressure and wind components."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For a take-off in slush, the slush drag:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Will increase up to aquaplane speed and then remain constant"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Will increase up to aquaplane speed and then decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Will increase up to aquaplane speed and then increase at a greater rate."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Will decrease progressively up to the lift off speed."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "With contamination on the aircraft wings and fuselage only:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The TODR will be unaffected."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The ASDR will decrease."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Stalling speed is not affected"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The lift off speed will be increased."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The gross take-off distance (TOD) is defined as being from brake release until:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The aeroplane's main wheel lifts off the runway."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The aeroplane has reached 35 ft."
+      },
+      {
+        "isCorrect": true,
+        "choice": "The aeroplane has reached the screen height."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The aeroplane is safely off the ground."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The result of a higher flap setting up to the optimum at take-off is:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "a higher VR."
+      },
+      {
+        "isCorrect": false,
+        "choice": "a longer take-off run."
+      },
+      {
+        "isCorrect": true,
+        "choice": "a shorter ground roll."
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increased acceleration."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "VR is the speed at which:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The aeroplane nose wheel is off the ground."
+      },
+      {
+        "isCorrect": true,
+        "choice": "The pilot initiate the action required to raise the nose wheel off the ground."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The main wheels lift off the ground"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The aeroplane rotates about the longitudinal axis."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "During take-off:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "The acceleration force decreases."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Wheel drag increases."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Thrust increases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Total drag decreases"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "High altitudes, hot air and humid conditions will:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Increase the take-off payload."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Decrease the take-off mass."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increase the take-off performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decrease the take-off distance."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The main purpose for taking off into wind is to:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Decrease the true ground speed."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decrease the aeroplane performance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increase the true ground speed."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increase the take-off distance."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What is the effect of a contaminated runway on the take-off?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Increases the take-off distance and greatly increases the accelerate stop distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increases the take-off distance and decreases the accelerate stop distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decreases the take-off distance and increases the accelerate stop distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decreases the take-off distance and greatly decreases the accelerate stop distance."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following statements is correct?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "If a clearway or a stopway is used, the lift-off point must be attainable at least by the end of the permanent runway surface."
+      },
+      {
+        "isCorrect": true,
+        "choice": "A stopway means an area beyond the take-off run available, able to support the aeroplane during an aborted take-off."
+      },
+      {
+        "isCorrect": false,
+        "choice": "An under-run is an area beyond the runway end which can be used for an aborted take-off."
+      },
+      {
+        "isCorrect": false,
+        "choice": "A clearway is an area beyond the runway which can be used for an aborted take-off."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A ‘Balanced Field Length’ is said to exist where:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "The accelerate stop distance available is equal to the take-off distance available."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The clearway does not equal the stopway."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The accelerate stop distance is equal to the all engine take-off distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The one engine out take-off distance is equal to the all engine take-off distance."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The stopway is an area which allows an increase only in:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "the accelerate - stop distance available"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the take-off run available."
+      },
+      {
+        "isCorrect": false,
+        "choice": "the take-off distance available."
+      },
+      {
+        "isCorrect": false,
+        "choice": "the landing distance available."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An airport has a 3000 metres long runway, and a 2000 meter clearway at each end of that runway. For the calculation of the maximum allowed take-off mass, the take-off distance available cannot be greater than:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "4000 metres"
+      },
+      {
+        "isCorrect": false,
+        "choice": "3000 metres"
+      },
+      {
+        "isCorrect": false,
+        "choice": "5000 metres"
+      },
+      {
+        "isCorrect": true,
+        "choice": "4500 metres"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Can the length of a stopway be added to the runway length to determine the take-off distance available?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Yes, but the stopway must be able to carry the weight of the aeroplane."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Yes, but the stopway must have the same width as the runway."
+      },
+      {
+        "isCorrect": true,
+        "choice": "No"
+      },
+      {
+        "isCorrect": false,
+        "choice": "No, unless its centreline is on the extended centreline of the runway."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "In relation to runway strength, the ACN:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Must not exceed 90% of the PCN and then only if special procedures are followed"
+      },
+      {
+        "isCorrect": true,
+        "choice": "May exceed the PCN by up to 10% or 50 % if special procedures are followed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "May exceed the PCN by a factor of 2"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Must equal the PCN"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The TODA is:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Declared runway length only."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Declared runway length plus clearway."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Declared runway length plus stopway."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Declared runway length plus clearway and stopway."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Take-off distance available is?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Take-off run available plus clearway"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Take-off run minus the clearway, even if clearway exists"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Always 1.5 times the TORA."
+      },
+      {
+        "isCorrect": false,
+        "choice": "50% of the TORA."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Can a clearway be used in the accelerate stop distance calculations?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Yes"
+      },
+      {
+        "isCorrect": true,
+        "choice": "No"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Only if the clearway is shorter than the stopway"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Only if there is no clearway."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The take-off distance available is?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The total runway length, without clearway even if this one exists."
+      },
+      {
+        "isCorrect": true,
+        "choice": "The length of the take-off run available plus any length of clearway available, up to a maximum of 50% of TORA."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The runway length minus stopway."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The runway length plus of the clearway."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The stopway is:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "at least as wide as the runway."
+      },
+      {
+        "isCorrect": false,
+        "choice": "no less than 152 wide."
+      },
+      {
+        "isCorrect": false,
+        "choice": "no less than 500 ft wide."
+      },
+      {
+        "isCorrect": false,
+        "choice": "as strong as the main runway."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which class of aeroplane describes all multi-engine turbo-jet aeroplanes?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Unclassified."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Class C."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Class B."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Class A."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A propeller aeroplane with nine or less passenger seats and with a maximum take-off mass of 5700 kg or less is described as:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Unclassified."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Class C."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Class B."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Class A."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What happens to the drag of a jet aeroplane if, during the initial climb after takeoff, a constant IAS and constant configuration is maintained? (Assume a constant mass..",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The drag decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The drag increases initially and decrease thereafter"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The drag remains almost constant"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The drag increases considerably"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The speed for best rate of climb is called?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "VO"
+      },
+      {
+        "isCorrect": true,
+        "choice": "VY"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VX"
+      },
+      {
+        "isCorrect": false,
+        "choice": "V2"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An increase in atmospheric pressure has, among other things, the following consequences on take-off performance",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "a reduced take-off distance and degraded initial climb performance"
+      },
+      {
+        "isCorrect": true,
+        "choice": "a reduced take-off distance and improved initial climb performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increases take-off distance and degraded initial climb performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increased take-off distance and improved initial climb performance"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A higher outside air temperature",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "does not have any noticeable effect on climb performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "reduces the angle of climb but increases the rate of climb"
+      },
+      {
+        "isCorrect": true,
+        "choice": "reduces the angle and the rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the angle of climb but decreases the rate of climb"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "In un-accelerated climb:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "thrust equals drag plus the uphill component of the gross weight in the flight path direction"
+      },
+      {
+        "isCorrect": true,
+        "choice": "thrust equals drag plus the downhill component of the gross weight in the flight path direction"
+      },
+      {
+        "isCorrect": false,
+        "choice": "lift is greater than the gross weight"
+      },
+      {
+        "isCorrect": false,
+        "choice": "lift equals weight plus the vertical component of the drag"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A jet aeroplane is climbing at a constant IAS with maximum climb thrust. How will the climb angle / the pitch angle change?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Remain constant / decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Remain constant / become larger"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Reduce / decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Reduce / remain constant"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Take-off performance data, for the ambient conditions, show the following limitations with flap 10° selected: Runway or Field limit mass: 5,270 kg Obstacle limit mass: 4,630 kg If the esmated take-off mass 5,000 kg it would be prudent to consider a take-off with flaps at:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "20°, both limitations are increased"
+      },
+      {
+        "isCorrect": true,
+        "choice": "5°, the obstacle limit mass is increased but the runway limit mass decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "5°, both limitations are increased"
+      },
+      {
+        "isCorrect": false,
+        "choice": "20°, the obstacle limit mass is increased but the runway limit mass decreases."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A four jet-engined aeroplane whose mass is 150 000 kg is established on climb with engines operating. The lift over drag ratio is 14:1. Each engine has a thrust of 75 000 Newtons. The gradient of climb is : (given: g=10m/s².",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "12.86%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "27%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "7.86%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "92%"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "How does the best angle of climb and best rate of climb vary with increasing altitude?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Both decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Both increase"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Best angle of climb increases while best rate of climb decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Best angle of climb decreases while best rate of climb increases"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Following a take-off determined by the 50ft (15m) screen height, a light twin climbs on a 10% ground gradient. It will clear a 900 m high obstacle situated at 10,000 m from the 50ft clearing point with an obstacle clearance of:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "85 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "It will not clear the obstacle"
+      },
+      {
+        "isCorrect": true,
+        "choice": "115 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "100 m"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The rate of climb:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "is approximately the climb gradient multiplied by the true airspeed divided by 100."
+      },
+      {
+        "isCorrect": false,
+        "choice": "is the downhill component of the true airspeed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is angle of climb multiplied by the true airspeed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is the horizontal component of the true airspeed"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Assuming that the required lift exists, which forces determine an aeroplane’s angle of climb?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Thrust and drag only"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Weight and thrust only"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Weight, drag and thrust"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Weight and drag only"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "which of the following provides maximum obstacle clearance during climb?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "1.2 Vs."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The speed for maximum rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The speed, at which the flaps may be selected one position further UP."
+      },
+      {
+        "isCorrect": true,
+        "choice": "The speed for maximum climb angle Vx."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which speed provides maximum obstacle clearance during climb?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "The speed for which the ratio between rate of climb and forward speed is maximum."
+      },
+      {
+        "isCorrect": false,
+        "choice": "V2 + 10 kt."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The speed for maximum rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "V2"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the equations below expresses approximately the unaccelerated percentage climb gradient for small climb angles?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Climb Gradient = (Thrust - Drag / Weight x 100"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Climb Gradient = (Thrust + Drag / Lift x 100"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Climb Gradient = (Thrust + Mass / Lift x 100"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Climb Gradient = (Lift / Weight x 100"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The absolute ceiling:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "is the altitude at which the best climb gradient attainable is 5%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is the altitude at which the aeroplane reaches a maximum rate of climb of 100 ft/min"
+      },
+      {
+        "isCorrect": true,
+        "choice": "is the altitude at which the rate of climb is theoretically zero"
+      },
+      {
+        "isCorrect": false,
+        "choice": "can be reached only with minimum steady flight speed"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The climb gradient of an aircraft after take-off is 6% in standard atmosphere, no wind, at 0 ft pressure altitude. Using the following corrections: ± 0.2 % / 1 000 ft field elevation, ± 0.1 % / °C from standard temperature, -1 % with wing anti-ice, – 0.5 % with engine anti-ice. The climb gradient after take-off from an airport situated at 1 000 ft, 17°C; QNH 1013.25 hPa, with wing and engine anti-ice operating for a functional check is:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "3.9%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "4.3%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "4.7%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "4.9%"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "As long as an aeroplane is in a positive climb:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "VX is always below VY"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VX is sometimes below and sometimes above VY depending on altitude"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VX is always above VY"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VY is always above VMO"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A constant headwind component:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "increases the angle of flight path during climb."
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the best rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases the angle of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the maximum endurance"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A higher gross mass at the same altitude will cause:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "VY and VX to decrease."
+      },
+      {
+        "isCorrect": false,
+        "choice": "VX to increase and VY to decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VY and VX to remain constant since they are not affected by a higher gross mass"
+      },
+      {
+        "isCorrect": true,
+        "choice": "VY and VX to increase"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "With an true airspeed of 194 kt and a vertical speed of 1,000 ft/min, the climb gradient is approximately:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "3°"
+      },
+      {
+        "isCorrect": false,
+        "choice": "3%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "5°"
+      },
+      {
+        "isCorrect": false,
+        "choice": "8%"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "With take-off flaps set, Vx and Vy will be:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "lower than that for clean configuration"
+      },
+      {
+        "isCorrect": false,
+        "choice": "higher than that for clean configuration"
+      },
+      {
+        "isCorrect": false,
+        "choice": "same as that for clean configuration"
+      },
+      {
+        "isCorrect": false,
+        "choice": "changed so that Vx increases and Vy decreases compared to clean configuration"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The maximum rate of climb that can be maintained at the absolute ceiling is:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "0 ft/min"
+      },
+      {
+        "isCorrect": false,
+        "choice": "125 ft/min"
+      },
+      {
+        "isCorrect": false,
+        "choice": "500 ft/min"
+      },
+      {
+        "isCorrect": false,
+        "choice": "100 ft/min"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A head wind will:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "increase the rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "shorten the time of climb"
+      },
+      {
+        "isCorrect": true,
+        "choice": "increase the climb flight path angle"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increase the angle of climb"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "VX is:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "the speed for best rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the speed for best specific range"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the speed for best angle of flight path"
+      },
+      {
+        "isCorrect": true,
+        "choice": "the speed for best angle of climb"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The best rate of climb at a constant gross mass:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "decreases with increasing altitude since the thrust available decreases due to the lower air density"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases with increasing altitude since the drag decreases due to the lower air density"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases with increasing altitude due to the higher true airspeed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is independent of altitude"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "During a climb with all engines operating, the altitude where the rate of climb reduces to 100 ft/min is called:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Thrust ceiling"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Maximum transfer ceiling"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Service ceiling"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Absolute ceiling"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "With all other factors remaining constant, how does increasing altitude affect Vx and Vy as a TAS:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Vx will decrease and Vy will increase"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Both will increase"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Both will remain the same"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Both will decrease"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Any acceleration in climb, with a constant power setting:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "improves the climb gradient if the airspeed is below VX"
+      },
+      {
+        "isCorrect": false,
+        "choice": "improves the rate of climb if the airspeed is below VY"
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases rate of climb and increases angle of climb"
+      },
+      {
+        "isCorrect": true,
+        "choice": "decreases the rate of climb and the angle of climb"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For an aircraft maintaining 100kt true airspeed and a climb gradient of 3.3% with no wind, what would be the approximate rate of climb?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "3.30 m/s"
+      },
+      {
+        "isCorrect": false,
+        "choice": "33.0 m/s"
+      },
+      {
+        "isCorrect": true,
+        "choice": "330 ft/min"
+      },
+      {
+        "isCorrect": false,
+        "choice": "3,300 ft/min"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "With a jet aeroplane, the maximum climb angle can be flown at approximately:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "1.2 Vs"
+      },
+      {
+        "isCorrect": false,
+        "choice": "1.1 Vs"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The highest L/C ratio"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The highest L/D² ratio"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "During a climb to the cruising level, any headwind component:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "decrease the climb time"
+      },
+      {
+        "isCorrect": true,
+        "choice": "decreases the ground distance flown during that climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the amount of fuel for the climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the climb time"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The pilot of a single engine aircraft has established the climb performance. The carriage of an additional passenger will cause the climb performance to be:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Degraded"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Improved"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Unchanged"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Unchanged, if a short field take-off is adopted"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A headwind component increasing with altitude, as compared to zero wind condition: (assuming IAS is constant.",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Improves angle and rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases angle and rate of climb"
+      },
+      {
+        "isCorrect": true,
+        "choice": "has no effect on rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "does not have any effect on the angle of flight path during climb"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following combinations adversely affects take-off and initial climb performance?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "High temperature and low relative humidity"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Low temperature and low relative humidity"
+      },
+      {
+        "isCorrect": true,
+        "choice": "High temperature and high relative humidity"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Low temperature and high relative humidity"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A decrease in atmosphereic pressure has, among other things, the following consequences on take-off performance:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "a reduced take-off distance and degraded initial climb performance"
+      },
+      {
+        "isCorrect": true,
+        "choice": "an increased take-off distance and degraded initial climb performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a reduced take-off distance and improved initial climb performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increased take-off distance and improved initial climb performance"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The angle of climb with flaps extended, compared to that with flaps retracted, will normally be:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Increase at moderate flap setting, decrease at large flap setting."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Smaller"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Larger"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Not change"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What is the effect of tail wind on the time to climb to a given altitude?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The time to climb increases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The time to climb decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The effect on time to climb will depend on the aeroplane type"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The time to climb does not change"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Changing the take-off flap setting from flap 15° to flap 5° will normally result in:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "a longer take-off distance and a better climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a shorter take-off distance and an equal climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a better climb and an equal take-off distance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a shorter take-off distance and a better climb"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What is the influence of the mass on maximum rate of climb (ROC. speed if all other parameters remain constant?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The ROC is affected by the mass, but not the ROC speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The ROC and the ROC speed are independent of the mass"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The ROC speed increases with increasing mass"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The ROC speed decreases with increasing mass"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Following a take-off to the 50ft (15 m screen height, a light twin climbs on a gradient of 5%. It will clear a 160 m obstacle situated at 5,000 m from the 50 ft point with an obstacle clearance margin of:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "it will not clear the obstacle"
+      },
+      {
+        "isCorrect": true,
+        "choice": "105 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "90 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "75 m"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The climb “gradient” is defined as the ratio of:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "true airspeed to rate of climb"
+      },
+      {
+        "isCorrect": false,
+        "choice": "rate of climb to true airspeed"
+      },
+      {
+        "isCorrect": true,
+        "choice": "the increase of altitude to horizontal air distance expressed as a percentage"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the horizontal air distance over the increase of altitude expressed as a percentage"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "When flying an aircraft at: (i) Vx without flap (ii) Vx with flap (iii) Vy without flap (iv) Vy with flap. The aircraft should be achieving:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "(i) The best rate of climb. (ii) The best rate of climb, but using a slightly faster speed than in (i) (iii) The best angle of climb (iv) The best angle of climb, but using a slightly faster speed than in (iii)"
+      },
+      {
+        "isCorrect": false,
+        "choice": "(i) A good angle of climb (ii) The best angle of climb (iii) A good rate of climb (iv) The best rate of climb"
+      },
+      {
+        "isCorrect": true,
+        "choice": "(i) The best angle of climb (ii) A slightly reduced angle of climb compared to i if using a slightly reduced speed than in i. (iii) The best rate of climb (iv) A slightly reduced rate of climb compared to iii if using a slightly reduced speed than in iii."
+      },
+      {
+        "isCorrect": false,
+        "choice": "(i) A good rate of climb (ii) The best rate of climb (iii) A good angle of climb (iv) The best angle of climb"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Two identical aeroplanes at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "At a given angle of attack, both the vertical and the forward speed are greater for the heavier aeroplane."
+      },
+      {
+        "isCorrect": false,
+        "choice": "There is no difference between the descent characteristics of the two aeroplanes."
+      },
+      {
+        "isCorrect": false,
+        "choice": "At a given angle of attack the heavier aeroplane will always glide further than the lighter aeroplane."
+      },
+      {
+        "isCorrect": false,
+        "choice": "At a given angle of attack the lighter aeroplane will always glide further than the heavier aeroplane."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "In a steady descending flight equilibrium of forces acting on the aeroplane is given by: (T=Thrust, D = Drag, W=Weight, descent angle = GAMMA)",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "T+D=-W sin GAMMA"
+      },
+      {
+        "isCorrect": true,
+        "choice": "T+W sin GAMMA = D"
+      },
+      {
+        "isCorrect": false,
+        "choice": "T - W sin GAMMA = D"
+      },
+      {
+        "isCorrect": false,
+        "choice": "T -D =W sin GAMMA"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following combinations has an effect on the angle of decent in a glide? (Ignore compressibility effects).",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Configuration and mass."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Configuration and angle of attack."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Mass and altitude."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Altitude and configuration."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which statement is correct for a descent without engine thrust at maximum lift to drag ratio speed?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The mass of an aeroplane does not have any effect on the speed for descent"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The higher the gross mass the greater is the speed for descent"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The higher the gross mass the lower is the speed for descent."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The higher the average tempwrature (OAT, the lower is the speed for descent."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An aeroplane is in a power off glide at best gliding speed. If the pilot increases pitch attitude the glide distance.",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "increases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "remains the same"
+      },
+      {
+        "isCorrect": false,
+        "choice": "may increase or decrease depending on the aeroplane"
+      },
+      {
+        "isCorrect": true,
+        "choice": "decreases"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Is there any difference between the vertical speed versus forward speed curves for two identical aeroplanes having different masses? (assume zero thrust and wind)",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Yes, the difference is that the lighter aeroplane will always glide a greater distance."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Yes, the difference is that for a given angle of attack both the vertical and forward speeds of the heavier aeroplane will be larger."
+      },
+      {
+        "isCorrect": false,
+        "choice": "No difference."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Yes, the difference is that the heavier aeroplane will always glide a greater distance."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which statements is correct for a descent without engine thrust at maximum lift to drag ratio speed?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "A tailwind component increases fuel and time to descent"
+      },
+      {
+        "isCorrect": false,
+        "choice": "A tailwind component decreases the ground distance."
+      },
+      {
+        "isCorrect": true,
+        "choice": "A tailwind component increases the ground distance."
+      },
+      {
+        "isCorrect": false,
+        "choice": "A headwind component increases the ground distance."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An aeroplane executes a steady glide at the speed for minimum glide angle. If the forward speed is kept constant at VMD , what is the effect of a lower mass on the Rate of descent/ Glide angle/ CL/ CD ratio?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "decreases/constant/decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases/increases/constant"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases/constant/increases"
+      },
+      {
+        "isCorrect": true,
+        "choice": "decreases/constant/constant."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following factors leads to the maximum flight time of a glide?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Low mass."
+      },
+      {
+        "isCorrect": false,
+        "choice": "High mass."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Headwind."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Tailwind"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A constant headwind:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "increases the descent distance over ground"
+      },
+      {
+        "isCorrect": true,
+        "choice": "increases the angle of the descent flight path."
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the angle of descent"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the rate of descent."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An aeroplane carries out a descent maintaining at a constant Mach number in the first part of the descent and then at a constant indicated airspeed in the second part of the descent. How does the angle of descent change in the first and in the second part of the descent? Assume idle thrust and clean configuration and ignore compressibility effects.",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "Increases in the first part; is constant in the second."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increases in the first part; decreases in the second."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Is constant in the first part; decrease in the second."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decreases in the first part; increases in the second."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "During a glide at constant Mach number , the pitch angle of the aeroplane will:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increase"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increase at first and decrease later on."
+      },
+      {
+        "isCorrect": false,
+        "choice": "remain constant."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following factors will lead to an increase of ground distance during a glide, while maintaining the appropriate minimum glide angle speed?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Headwind."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Tailwind."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increase of aircraft mass."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decrease of aircraft mass."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A twin jet aeroplane is in cruise, with one engine inoperative, and has to overfly a high terrain area. In order to allow the greatest height clearance, the appropriate airspeed must be the airspeed:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "giving the lowest Cd/Cl ratio."
+      },
+      {
+        "isCorrect": false,
+        "choice": "for long-range cruise."
+      },
+      {
+        "isCorrect": true,
+        "choice": "of greatest lift-to-drag ratio."
+      },
+      {
+        "isCorrect": false,
+        "choice": "giving the lowest Cl/Cd ratio."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What is the effect of increased mass on the performance of a gliding aeroplane at VMD?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The lift/drag ratio decreases"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The speed for best angle descent increases."
+      },
+      {
+        "isCorrect": false,
+        "choice": "There is no effect"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The gliding angle decreases."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A twin engined aeroplane in cruise flight with one engine inoperative has to fly over high ground. In order to maintain the highest possible altitude the pilot should choose’.",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "the speed corresponding to the minimum value of lift / drag ratio."
+      },
+      {
+        "isCorrect": false,
+        "choice": "the speed at the maximum lift."
+      },
+      {
+        "isCorrect": true,
+        "choice": "the speed corresponding to the maximum value of the lift / drag ratio"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the long range speed."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "With all engines out, a pilot wants to fly for maximum time, Therefore he has to fly the speed corresponding to:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "the minimum power required"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the critical Mach number."
+      },
+      {
+        "isCorrect": false,
+        "choice": "the minimum angle of descent."
+      },
+      {
+        "isCorrect": false,
+        "choice": "the maximum lift"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Descending from cruising altitude to ground level at a constant IAS in a headwind, compared to still air conditions, will:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Reduce the time to descend."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increase the time to descend"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Reduce the ground distance taken"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Reduce the fuel used in the descent."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "When descending at a constant Mach number:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The angle of attack remains constant."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The IAS decreases then increases."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The pitch angle will increase."
+      },
+      {
+        "isCorrect": true,
+        "choice": "The pitch angle will decrease"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "On a reciprocating engined aeroplane, with increasing altitude at constant gross mass, constant angle of attack and configuration, the power required:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "remains unchanged but the TAS increases"
+      },
+      {
+        "isCorrect": true,
+        "choice": "increases and the TAS increases by the same percentage"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases but TAS remains constant"
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases slightly because of the lower air density"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Moving the centre of gravity from the forward to the aft limit: (gross mass, altitude and airspeed remain unchanged)",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "increases the power required"
+      },
+      {
+        "isCorrect": false,
+        "choice": "affects neither drag nor power required"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increases the induced drag"
+      },
+      {
+        "isCorrect": true,
+        "choice": "decreases slightly because of the lower air density"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For jet-engined aeroplanes operating below the optimum altitude, what is the effect of increased altitude on specific range?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "It does not change"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increases only if there is no wind"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Increases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decreases"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "If the thrust available exceeds the thrust required for level flight:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "the aeroplane accelerates if the altitude is maintained"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the aeroplane descends if the airspeed is maintained"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the aeroplane decelerates if it is in the region of reversed command"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the aeroplane decelerates if the altitude is maintained"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Given a jet aircraft. Which order of speeds is correct?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Vs, Maximum range speed, Vx"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Maximum endurance speed, Maximum range speed, VX"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Vs, Vx Maximum range speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Maximum endurance speed, Long range speed, Maximum range speed"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The pilot of a light twin engine aircraft has calculated a 4,000 m service ceiling with a take-off mass 3,250 kg, based on the general forecast conditions for the flight. If the take-off mass is 3,000 kg the service ceiling will be:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "less than 4,000 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "unchanged, equal to 4,000 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "only a new performance analysis will determine if the service ceiling is higher or lower than 4,000 m"
+      },
+      {
+        "isCorrect": true,
+        "choice": "higher than 4,000 m"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Consider the graphic representation of the power required for a jet aeroplane versus true air speed (TAS). When drawing the tangent out of the origin, the point of contact determines the speed of:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "critical angle of attack"
+      },
+      {
+        "isCorrect": true,
+        "choice": "maximum endurance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "minimum power"
+      },
+      {
+        "isCorrect": false,
+        "choice": "maximum specific range"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "In the drag versus speed curve for a jet aeroplane, the speed for maximum range corresponds with:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "the point of contact of the tangent from the origin to the drag curve"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the point of intersection of the parasite drag curve and the induced drag curve"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the point of contact of the tangent from the origin to the parasite drag curve"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the point of contact of the tangent from the origin to the induced drag curve"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The speed VS is defined as the:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "speed for best specific range"
+      },
+      {
+        "isCorrect": true,
+        "choice": "stalling speed or minimum steady flight speed at which the aeroplane is controllable"
+      },
+      {
+        "isCorrect": false,
+        "choice": "safety speed for take-off in case of a contaminated runway"
+      },
+      {
+        "isCorrect": false,
+        "choice": "design stress speed"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What is the effect of a head wind component, compared to still air, on the maximum range speed for maximum climb angle respectively?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Maximum range speed decreases and maximum climb angle speed decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Maximum range speed increases and maximum climb angle speed increases"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Maximum range speed increases and maximum climb angle speed stays constant"
+      },
+      {
+        "isCorrect": false,
+        "choice": "maximum range speed decreases and maximum climb angle speed increases"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A jet aeroplane is flying at the long range cruise speed at the optimum altitude. How does the specific range / fuel flow change over a given time period?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Decrease / decrease"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Increase / decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Increase / increase"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Decrease / increase"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The maximum indicated air speed of a piston engined aeroplane, in level flight, is reached:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "at the service ceiling"
+      },
+      {
+        "isCorrect": false,
+        "choice": "at the practical ceiling"
+      },
+      {
+        "isCorrect": true,
+        "choice": "at the lowest possible altitude"
+      },
+      {
+        "isCorrect": false,
+        "choice": "at the optimum cruise altitude"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The optimum cruise altitude increases:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "if the aeroplane mass is decreased"
+      },
+      {
+        "isCorrect": false,
+        "choice": "if the temperature (OAT) is increased"
+      },
+      {
+        "isCorrect": false,
+        "choice": "if the tailwind component is decreased"
+      },
+      {
+        "isCorrect": false,
+        "choice": "if the aeroplane mass is increased"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What affect has a tailwind on the maximum endurance speed?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "No affect"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Tailwind only affects holding speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The IAS will be increased"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The IAS will be decreased"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the equations below defines specific air range (SR)?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "SR=Groundspeed / Total Fuel Flow"
+      },
+      {
+        "isCorrect": true,
+        "choice": "SR=True Airspeed / Total Fuel Flow"
+      },
+      {
+        "isCorrect": false,
+        "choice": "SR=Indicated Airspeed / Total Fuel Flow"
+      },
+      {
+        "isCorrect": false,
+        "choice": "SR=Mach Number / Total Fuel Flow"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following statements, with regard to the optimum altitude (best fuel mileage), is correct?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "An aeroplane usually flies above the optimum cruise altitude, as this provides the largest specific range"
+      },
+      {
+        "isCorrect": true,
+        "choice": "An aeroplane sometimes flies above the optimum cruise altitude, because ATC normally does not allow to fly continuously at the optimum cruise altitude."
+      },
+      {
+        "isCorrect": false,
+        "choice": "An aeroplane always flies below the optimum cruise altitude, as otherwise Mach buffet can occur"
+      },
+      {
+        "isCorrect": false,
+        "choice": "An aeroplane always flies on the optimum cruise altitude, because this is most attractive from an economy point of view"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The optimum altitude:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "is the altitude up to which cabin pressure of 8 000 ft can be maintained"
+      },
+      {
+        "isCorrect": true,
+        "choice": "increases as mass decreases and is the altitude at which the specific range reaches its maximum"
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases as mass decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is the altitude at which the specific range reaches its minimum"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A lower airspeed at constant mass and altitude requires:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "less thrust and a lower coefficient of lift"
+      },
+      {
+        "isCorrect": false,
+        "choice": "more thrust and a lower coefficient of lift"
+      },
+      {
+        "isCorrect": false,
+        "choice": "more thrust and a lower coefficient of drag"
+      },
+      {
+        "isCorrect": true,
+        "choice": "a higher coefficient of lift"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The point at which a tangent out of the origin touches the power required curve:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "is the point where Drag coefficient is a minimum"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is the point where the Lift of Drag ratio is a minimum"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is the maximum drag speed"
+      },
+      {
+        "isCorrect": true,
+        "choice": "is the point where the Lift to Drag ratio is a maximum"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The long range cruise speed (LRC) is in relation to the speed for maximum range cruise (MRC)?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Lower"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Depending on the OAT and net mass"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Depending on density altitude and mass"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Higher"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The maximum horizontal speed occurs when:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The thrust is equal to minimum drag"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The thrust does not increase further with increasing speed"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The maximum thrust is equal to the total drag"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The thrust is equal to the maximum drag"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Under which condition should you fly considerably lower (4,000 ft or more) than the optimum altitude?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "If at the lower altitude either more headwind or less tailwind can be expected"
+      },
+      {
+        "isCorrect": true,
+        "choice": "If at the lower altitude either considerably less headwind or considerably more tailwind can be expected"
+      },
+      {
+        "isCorrect": false,
+        "choice": "If the maximum altitude is below the optimum altitude"
+      },
+      {
+        "isCorrect": false,
+        "choice": "If the temperature is lower at the low altitude (high altitude inversion."
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The optimum cruise altitude is:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "the pressure altitude up to which a cabin altitude of 8,000 ft can be maintained"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the pressure altitude at which the TAS for high speed buffet is a maximum"
+      },
+      {
+        "isCorrect": true,
+        "choice": "the pressure altitude at which the best specific range can be achieved"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the pressure altitude at which the fuel flow is a maximum"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Maximum endurance for a prison engined aeroplane is achieved at:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The speed that approximately corresponds to the maximum rate of climb speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The speed for maximum lift coefficient"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The speed for minimum drag"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The speed that corresponds to the speed for maximum climb angle"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "On a long distance flight the gross mass decreases continuously as a consequence of the fuel consumption. The result is:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The speed must be increased to compensate the lower mass"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The specific range increases and the optimum altitude decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The specific range decreases and the optimum altitude increases"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The specific range and the optimum altitude increases"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A jet aeroplane is climbing at constant Mach number below the tropopause. Which of the following statements is correct?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "IAS decreases and TAS decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "IAS increases and TAS increases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "IAS decreases and TAS increases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "IAS increases and TAS decreases"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Why are ‘step climbs’ used on long distance flights?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Step climbs do not have any special purpose for jet aeroplanes; they are used for piston engine aeroplanes only"
+      },
+      {
+        "isCorrect": false,
+        "choice": "ATC do not permit cruise climbs"
+      },
+      {
+        "isCorrect": true,
+        "choice": "To fly as close as possible to the optimum altitude as aeroplane mass reduces"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Step climbs are only justified if at the higher altitude less headwind or more tailwind can be expected"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following sequences of speed for a jet aeroplane is correct? (from low to high speeds.",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Maximum endurance speed, maximum range speed, maximum angle of climb speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Maximum endurance speed, long range speed, maximum range speed"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Vs, maximum angle climb speed, maximum range speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Vs, maximum range speed, maximum angle climb speed"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The pilot of a jet aeroplane wants to use a minimum amount of fuel between two airfields. Which flight procedure should the pilot fly?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Maximum endurance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Holding"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Long range"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Maximum range"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Long range cruise is selected as:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "the higher speed to achieve 99% of maximum specific range in zero wind"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the speed for best economy (ECON)"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the climbing cruise with one or two engines inoperative"
+      },
+      {
+        "isCorrect": false,
+        "choice": "specific range with tailwind"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The optimum long-range cruise altitude for a turbo-jet aeroplane:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "is only dependent on the outside air temperature"
+      },
+      {
+        "isCorrect": true,
+        "choice": "increases when the aeroplane mass decreases"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is always equal to the powerplant ceiling"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is independent of the aeroplane mass"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Maximum endurance:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "is the same as maximum specific range with wind correction"
+      },
+      {
+        "isCorrect": false,
+        "choice": "can be flown in a steady climb only"
+      },
+      {
+        "isCorrect": false,
+        "choice": "can be reached with the 'best rate of climb' speed in level flight"
+      },
+      {
+        "isCorrect": true,
+        "choice": "is achieved in unaccelerated level flight with minimum fuel consumption"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For a piston engined aeroplane, the speed for maximum range is:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "that which gives the maximum lift to drag ratio"
+      },
+      {
+        "isCorrect": false,
+        "choice": "that which gives the minimum value of power"
+      },
+      {
+        "isCorrect": false,
+        "choice": "that which gives the maximum value of lift"
+      },
+      {
+        "isCorrect": false,
+        "choice": "1.4 times the stall speed in clean configuration"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The speed for maximum endurance:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "is always higher than the speed for maximum specific range"
+      },
+      {
+        "isCorrect": true,
+        "choice": "is always lower than the speed for maximum specific range"
+      },
+      {
+        "isCorrect": false,
+        "choice": "is the lower speed to achieve 99% of maximum specific range"
+      },
+      {
+        "isCorrect": false,
+        "choice": "can either be higher or lower than the speed for maximum specific range"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The intersections of the thrust available and the drag curve are the operating points of the aeroplane:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "in un-accelerated climb"
+      },
+      {
+        "isCorrect": true,
+        "choice": "in un-accelerated level flight"
+      },
+      {
+        "isCorrect": false,
+        "choice": "in descent with constant IAS"
+      },
+      {
+        "isCorrect": false,
+        "choice": "in accelerated level flight"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For a jet transport aeroplane,which of the following is the reason for the use of ‘maximum range speed’?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Minimises specific fuel consumption"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Minimises fuel flow"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Longest flight duration"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Minimises drag"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The centre of gravity moving near to, but still within, the aft limit;",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "increases the stalling speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "improves the longitudinal stability"
+      },
+      {
+        "isCorrect": false,
+        "choice": "decreases the maximum range"
+      },
+      {
+        "isCorrect": true,
+        "choice": "improves the maximum range"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "A jet aeroplane is performing a maximum range flight. The speed corresponds to:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "the minimum drag"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the minimum required power"
+      },
+      {
+        "isCorrect": false,
+        "choice": "the point of contact of the tangent from the origin to the power required (Pr. versus TAS curve"
+      },
+      {
+        "isCorrect": true,
+        "choice": "the point of contact of the tangent from the origin to the Drag versus TAS curve"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "During a cruise flight of a jet aeroplane at a constant flight level and at the maximum range speed, the IAS / the drag will:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "increase / increase"
+      },
+      {
+        "isCorrect": false,
+        "choice": "decrease / increase"
+      },
+      {
+        "isCorrect": true,
+        "choice": "decrease / decrease"
+      },
+      {
+        "isCorrect": false,
+        "choice": "increase / decrease"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following is a reason to operate an aeroplane at ‘long range speed’?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The aircraft can be operated close to the buffet onset speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "In order to prevent loss of speed stability and tuck-under"
+      },
+      {
+        "isCorrect": true,
+        "choice": "It offers greatly reduced time costs than with maximum range speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "In order to achieve speed stability"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Long range cruise is a flight procedure which gives:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "an IAS which is 1% higher than the IAS for maximum specific range"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a specific range which is 99% of maximum specific range and a lower cruise speed"
+      },
+      {
+        "isCorrect": true,
+        "choice": "a specific range which is about 99% of maximum specific range and higher cruise speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a 1% higher TAS for maximum specific range"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The lowest point of the frag or thrust required curve of a jet aeroplane, is the point for:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "minimum drag and maximum endurance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "maximum specific range and minimum power"
+      },
+      {
+        "isCorrect": false,
+        "choice": "minimum power"
+      },
+      {
+        "isCorrect": false,
+        "choice": "minimum specific range"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "If other factors are unchanged, the fuel mileage or range (nautical miles per kg. is :",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "independent from the centre of gravity position"
+      },
+      {
+        "isCorrect": false,
+        "choice": "lower with an aft centre of gravity position"
+      },
+      {
+        "isCorrect": false,
+        "choice": "higher with a forward centre of gravity position"
+      },
+      {
+        "isCorrect": true,
+        "choice": "lower with a forward centre of gravity position"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "To achieve the maximum range over ground with headwind the airspeed should be:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "lower compared to the speed for maximum range cruise with no wind"
+      },
+      {
+        "isCorrect": false,
+        "choice": "reduced to the gust penetration speed"
+      },
+      {
+        "isCorrect": true,
+        "choice": "higher compared to the speed for maximum range cruise with no wind"
+      },
+      {
+        "isCorrect": false,
+        "choice": "equal to the speed for maximum range cruise with no wind"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "When utilising the step climb technique, one should wait for the weight reduction, from fuel burn, to result in:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "The aerodynamic ceiling to increase by approximately 2,000ft above the present altitude whereby one would climb approximately 4,000ft higher"
+      },
+      {
+        "isCorrect": true,
+        "choice": "The optimum altitude to increase by approximately 2,000ft above the present altitude, whereby one would climb approximately 4,000ft higher"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The manoeuvre ceiling to increase by approximately 2,000ft above the present altitude, whereby one would climb approximately 4,000ft higher"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The en-route ceiling to increase by approximately 2,000ft above the present altitude, whereby one would climb approximately 4,000ft higher"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "Which of the following statements is true regarding the performance of an aeroplane in level flight?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "The maximum level flight speed will be obtained when the power required equals the maximum power available from the engine"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The minimum level flight speed will be obtained when the power required equals the maximum power available from the engine"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The maximum level flight speed will be obtained when the power required equals the minimum power available from the engine"
+      },
+      {
+        "isCorrect": false,
+        "choice": "The maximum level flight speed will be obtained when the power required equals the power available from the engine"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The landing reference speed V ref has, in accordance with international requirements, the following margins above the stall speed in landing configuration for a Class B aeroplane:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "15%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "20%"
+      },
+      {
+        "isCorrect": false,
+        "choice": "10%"
+      },
+      {
+        "isCorrect": true,
+        "choice": "30%"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "At a given mass, the stalling speed of a twin engine, class B aeroplane is 100kt in the landing configuration. The minimum speed a pilot must maintain in short final is:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "130 kt"
+      },
+      {
+        "isCorrect": false,
+        "choice": "115 kt"
+      },
+      {
+        "isCorrect": false,
+        "choice": "125 kt"
+      },
+      {
+        "isCorrect": false,
+        "choice": "120 kt"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The stalling speed or the minimum steady flight speed at which the aeroplane is controllable in landing configuration is abbreviated as:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "VS1"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VS"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VMC"
+      },
+      {
+        "isCorrect": true,
+        "choice": "VSO"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "What margin above the stall speed is provided by the landing reference V ref for a Class B aeroplane?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "1.10 VSO"
+      },
+      {
+        "isCorrect": false,
+        "choice": "VMCA x 1.2"
+      },
+      {
+        "isCorrect": true,
+        "choice": "1.30 VSO"
+      },
+      {
+        "isCorrect": false,
+        "choice": "1.05 VSO"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An increase in atmospheric pressure has, among other things, the following consequences on landing performance:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "a reduced landing distance and degraded go around performance"
+      },
+      {
+        "isCorrect": true,
+        "choice": "a reduced landing distance and improved go-around performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increased landing distance and degraded go-around performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increased landing distance and improved go-around performance"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "The take-off distance of an aircraft is 600 m in a standard atmosphere, with no wind and at a pressure altitude of 0 ft. Using the following corrections: ± 20m / 1,000 ft field elevation, – 5m /kt headwind, ± 15m / % runway slope, ± 5m /°C deviation from standard temperature. The take-off distance from an airport at 1,000 ft elevation, temperature 17°C, QNH 1013.25 hPa, 1% up-slope, 10 kt tailwind is?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "555 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "685 m"
+      },
+      {
+        "isCorrect": true,
+        "choice": "755 m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "715 m"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "To minimize the risk of hydroplaning during the landing the pilot of a modern airliner should:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "make a \"positive\" landing and apply maximum reverse thrust and brakes as quickly as possible"
+      },
+      {
+        "isCorrect": false,
+        "choice": "use maximum reverse thrust, and should start braking below the hydroplaning speed"
+      },
+      {
+        "isCorrect": false,
+        "choice": "use normal landing, braking and reverse thrust techniques"
+      },
+      {
+        "isCorrect": false,
+        "choice": "postpone the landing until the risk of hydroplaning no longer exists"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An aircraft has two certified landing flaps positions 25° and 35°. If a pilot chooses 25° instead of 35°, the aircraft will have:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "a reduced landing distance and better go-around performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increased landing distance and degraded go-around performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a reduced landing distance and degraded go-around performance"
+      },
+      {
+        "isCorrect": true,
+        "choice": "an increased landing distance and better go-around performance"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "May anti-skid be considered to determine the take-off and landing data?",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Only for take-off"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Only for landing"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Yes"
+      },
+      {
+        "isCorrect": false,
+        "choice": "No"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "An aircraft has two certified landing flaps positions, 25° and 35°. If a pilot chooses 35° instead of 25°, the aircraft will have:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "an increased landing distance and better go-around performance"
+      },
+      {
+        "isCorrect": true,
+        "choice": "a reduced landing distance and degraded go-around performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "a reduced landing distance and better go-around performance"
+      },
+      {
+        "isCorrect": false,
+        "choice": "an increased landing distance and degraded go-around performance"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For a single engine Class B aeroplane, how does runway slope affect allowable take-off mass, assuming other factors remain constant and not limiting?",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "An uphill slope decreases take-off mass."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Allowable take-off mass is not affected by runway slope"
+      },
+      {
+        "isCorrect": false,
+        "choice": "A downhill slope decreases allowable take-off mass"
+      },
+      {
+        "isCorrect": false,
+        "choice": "A downhill slope increases allowable take-off mass"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For this question use Performance Manual CAP 698 SEP 1 Figure 2.1. With regard to the take-off performance chart for the single engine aeroplane, determine the take-off speed for (1) rotation and (2) at a height of 50ft. Given:- O.A.T : ISA + 10 Pressure Altitude: 5,000 ft, Aeroplane mass: 3,400 IBS, Headwind component: 5 kt, Flaps: up, Runway: Tarred and Dry",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "73 and 84 kt"
+      },
+      {
+        "isCorrect": false,
+        "choice": "68 and 78 kt"
+      },
+      {
+        "isCorrect": false,
+        "choice": "65 and 75 kt"
+      },
+      {
+        "isCorrect": true,
+        "choice": "71 and 82 kt"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For this question use Performance Manual CAP 698 SEP 1 Figure 2.2. With regard to the take-off performance chart for the single engine aeroplane determine the take-off distance over a 50ft obstacle height. Given:- O.A.T : 30°C, Pressure Altitude: 1,000ft, Aeroplane Mass: 2,950 IBS, Tailwind component: 5kt, Flaps: Approach setting, Runway: Short, wet grass, firm subsoil, Correction factor: 1.25 for the current runway conditions.",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "1,700ft"
+      },
+      {
+        "isCorrect": false,
+        "choice": "2,500ft"
+      },
+      {
+        "isCorrect": true,
+        "choice": "2,200ft"
+      },
+      {
+        "isCorrect": false,
+        "choice": "1,900ft"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For this question use Performance Manual CAP 698 SEP 1 Figure 2.1. With regard to the take off performance chart for the single engine aeroplane determine the maximum allowable take off mass. Given:- O.A.T : ISA, Pressure Altitude : 4,000ft, Headwind component : 5kt, Flaps : up, Runway : Tarred and Dry, Factored runway length : 2,000ft, Obstacle height : 50ft",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "3,000 IBS"
+      },
+      {
+        "isCorrect": false,
+        "choice": "2,900 IBS"
+      },
+      {
+        "isCorrect": false,
+        "choice": "3,650 IBS"
+      },
+      {
+        "isCorrect": true,
+        "choice": "3,200 IBS"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For this question use Performance Manual CAP 698 SEP 1 Figure 2.1. With regard to the take-off performance chart for the single engine aeroplane determine the take-off distance to a height of 50ft. Given:- O.A.T: 30°C, Pressure Altitude: 1,000ft, Aeroplane Mass: 3,450 IBS, Tailwind component: 2.5 kt, Flaps: up, Runway: Tarred and Dry.",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "approximately: 2,200 feet"
+      },
+      {
+        "isCorrect": true,
+        "choice": "approximately: 2,400 feet"
+      },
+      {
+        "isCorrect": false,
+        "choice": "approximately: 1,400 feet"
+      },
+      {
+        "isCorrect": false,
+        "choice": "approximately: 2,800 feet"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For this question use Performance Manual CAP 698 SEP 1 Figure 2.2. With regard to the take-off performance chart for the single engine aeroplane determine the take-off distance to a height of 50ft. Given:- O.A.T:- 7°C, Pressure Altitude: 7,000ft, Aeroplane Mass: 2,950 Ibs, Headwind component: 5kt, Flaps: Approach setting, Runway: Tarred and Dry.",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "approximately: 1,150 ft"
+      },
+      {
+        "isCorrect": false,
+        "choice": "approximately: 2,450 ft"
+      },
+      {
+        "isCorrect": false,
+        "choice": "approximately: 1,500 ft"
+      },
+      {
+        "isCorrect": true,
+        "choice": "approximately: 2,100 ft"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For this question use Performance Manual CAP 698 SEP 1 Figure 2.1. With regard to the take-off performance chart for the single engine aeroplane determine the take-off distance to a height of 50ft. Given:- Airport characteristics: hard, dry and zero slope runway, Pressure altitude: 1,500ft, Outside air temperature: +18°C, wind component: 4 knots tailwind, Take-off mass: 1,270 kg.",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "520m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "415m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "440m"
+      },
+      {
+        "isCorrect": false,
+        "choice": "615m"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For this question use Performance Manual CAP 698 SEP 1 Figure 2.2. With regard to the take-off performance chart for the single engine aeroplane determine the take-off distance to a height of 50 ft. Given:- O.A.T: 38°C, Pressure Altitude: 4,000 ft, Aeroplane Mass: 3,400 Ibs, Tailwind component: 5 kt, Flaps: Approach setting, Runway: Dry Grass, Correction factor: 1.2",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "approximately: 3,250 ft"
+      },
+      {
+        "isCorrect": false,
+        "choice": "approximately: 4,200 ft"
+      },
+      {
+        "isCorrect": false,
+        "choice": "approximately: 5,040 ft"
+      },
+      {
+        "isCorrect": true,
+        "choice": "approximately: 3,900 ft"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For a Class B aircraft at an aerodrome with no stopway or clearway, the minimum length of Take-off Run that must be available to satisfy the take-off requirements:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Must not be less than the gross take off distance to 50ft."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Must not be less than 1.15 times the gross take off distance to 50ft."
+      },
+      {
+        "isCorrect": true,
+        "choice": "Must not be less than 1.25 times the gross take off distance to 50ft."
+      },
+      {
+        "isCorrect": false,
+        "choice": "Must not be less than 1.3 times the gross take off distance to 50ft"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For a single engine Class B aircraft, the rotation speed VR:",
+    "choices": [
+      {
+        "isCorrect": false,
+        "choice": "Must not be less than 1.1 VS1"
+      },
+      {
+        "isCorrect": true,
+        "choice": "Must not be less than VS1"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Must not be less than 1.2 VMC"
+      },
+      {
+        "isCorrect": false,
+        "choice": "Must not be less than VMC"
+      }
+    ],
+    "subject": "Performance"
+  },
+  {
+    "question": "For a single engine Class B aircraft at an aerodrome with stopway:",
+    "choices": [
+      {
+        "isCorrect": true,
+        "choice": "The TOD x 1.3 must not exceed the ASDA."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The TOD must not exceed the ASDA x 1.3."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The TOD x 1.25 must not exceed the ASDA."
+      },
+      {
+        "isCorrect": false,
+        "choice": "The TOD must not exceed the ASDA x 1.25."
+      }
+    ],
+    "subject": "Performance"
+  }
+]

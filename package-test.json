@@ -1,0 +1,24 @@
+{
+  "name": "payment-webhook-tester",
+  "version": "1.0.0",
+  "description": "Test script for Razorpay payment webhook functionality",
+  "main": "test-payment-webhook.js",
+  "scripts": {
+    "test": "node test-payment-webhook.js",
+    "test:direct": "node test-payment-webhook.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "razorpay",
+    "webhook",
+    "payment",
+    "testing",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
