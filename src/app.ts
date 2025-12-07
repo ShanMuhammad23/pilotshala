@@ -30,6 +30,7 @@ const origins = [
   "http://localhost:3000",
   "https://pilotshala.com",
   "https://www.pilotshala.com",
+  "https://pilotshala.netlify.app"
 ];
 
 const corsOptions = {
