@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc && node dist/index.js",
+    "start": "node init && tsc && node dist/index.js",
     "lambda": "tsc && sls offline",
-    "dev": "nodemon --loader ts-node/esm src/index.ts",
+    "dev": "node init && nodemon --loader ts-node/esm src/index.ts",
     "seed": "node seeder.js"
   },
   "keywords": [],
@@ -29,6 +29,7 @@
     "mongoose": "^8.14.2",
     "multer": "^2.0.0",
     "node-cron": "^4.1.0",
+    "node-fetch": "^3.3.2",
     "nodemailer": "^7.0.3",
     "razorpay": "^2.9.6",
     "redis": "^5.5.6",
