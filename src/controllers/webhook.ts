@@ -18,6 +18,30 @@ function verifyWebhookSignature(body: string, signature: any, secret: any) {
   return expectedSignature === signature;
 }
 
+// Helper function to map Razorpay payment methods to our enum values
+function mapPaymentMethod(razorpayMethod: string): string {
+  if (!razorpayMethod) return "manual";
+  
+  const method = razorpayMethod.toLowerCase();
+  
+  // Map Razorpay payment methods to our enum values
+  if (method === "card" || method === "credit_card" || method === "debit_card") {
+    return "card";
+  }
+  if (method === "upi") {
+    return "upi";
+  }
+  if (method === "netbanking" || method === "nb") {
+    return "netbanking";
+  }
+  if (method === "wallet") {
+    return "wallet";
+  }
+  
+  // Default to manual if method doesn't match
+  return "manual";
+}
+
 export const razorpayWebhook2 = async (
   req: express.Request,
   res: express.Response
@@ -267,21 +291,35 @@ async function handlePaymentCaptured(req: express.Request, res: express.Response
       console.error("❌ Failed to send welcome email:", error);
     }
 
-    // Create payment record
-    const paymentRecord = await Payment.create({
-      amount: payment.amount,
-      currency: payment.currency.toLowerCase(),
-      paymentStatus: "completed",
-      paymentGateway: "razorpay",
-      paymentMethod: payment.method,
-      paymentId: payment.id,
-      invoice: payment.invoice_id || null,
-      user: user._id,
-      plan: plan._id,
-      purchaseDate: new Date(),
-    });
+    // Create payment record (wrapped in try-catch to ensure it doesn't fail silently)
+    try {
+      const paymentRecord = await Payment.create({
+        amount: payment.amount,
+        currency: payment.currency?.toLowerCase() || "inr",
+        paymentStatus: "completed",
+        paymentGateway: "razorpay",
+        paymentMethod: mapPaymentMethod(payment.method),
+        paymentId: payment.id,
+        invoice: payment.invoice_id || null,
+        user: user._id,
+        plan: plan._id,
+        purchaseDate: new Date(),
+      });
 
-    console.log("✅ PAYMENT RECORD CREATED:", paymentRecord._id);
+      console.log("✅ PAYMENT RECORD CREATED:", paymentRecord._id);
+    } catch (error: any) {
+      console.error("❌ FAILED TO CREATE PAYMENT RECORD:", error);
+      console.error("Payment details:", {
+        amount: payment.amount,
+        currency: payment.currency,
+        method: payment.method,
+        paymentId: payment.id,
+        userId: user._id,
+        planId: plan._id,
+      });
+      console.error("Error details:", error.message, error.errors);
+      // Don't fail the entire webhook - payment was successful, just record creation failed
+    }
 
     return res.json({
       message: "Payment processed successfully",
@@ -315,28 +353,34 @@ async function handlePaymentFailed(req: express.Request, res: express.Response) 
       
       console.log(`Payment failed for user ${user.email} at ${failedPaymentTimestamp}`);
       console.log(`ℹ️ No subscription changes will be made - only recording failed payment for tracking`);
+      try {
+        await Payment.create({
+          amount: payment.amount,
+          currency: payment.currency?.toLowerCase() || "inr",
+          paymentStatus: "failed",
+          paymentGateway: "razorpay",
+          paymentMethod: mapPaymentMethod(payment.method),
+          paymentId: payment.id,
+          invoice: payment.invoice_id || null,
+          user: user._id,
+          plan: null,
+          purchaseDate: failedPaymentTimestamp,
+          failureReason: payment.error_code || "Payment failed",
+          failureDescription: payment.error_description || "Payment processing failed",
+        });
 
-      // 🔒 CRITICAL: Do NOT reset subscription on failed payment
-      // Failed payment webhooks can arrive out of order (e.g., old failed payment arrives after newer successful payment)
-      // We only record the failed payment for tracking purposes without modifying user subscription
-
-      // Create failed payment record for tracking only
-      await Payment.create({
-        amount: payment.amount,
-        currency: payment.currency.toLowerCase(),
-        paymentStatus: "failed",
-        paymentGateway: "razorpay",
-        paymentMethod: payment.method,
-        paymentId: payment.id,
-        invoice: payment.invoice_id || null,
-        user: user._id,
-        plan: null,
-        purchaseDate: failedPaymentTimestamp,
-        failureReason: payment.error_code || "Payment failed",
-        failureDescription: payment.error_description || "Payment processing failed",
-      });
-
-      console.log(`✅ Failed payment record created for user ${user.email}`);
+        console.log(`✅ Failed payment record created for user ${user.email}`);
+      } catch (error: any) {
+        console.error("❌ FAILED TO CREATE FAILED PAYMENT RECORD:", error);
+        console.error("Payment details:", {
+          amount: payment.amount,
+          currency: payment.currency,
+          method: payment.method,
+          paymentId: payment.id,
+          userId: user._id,
+        });
+        console.error("Error details:", error.message, error.errors);
+      }
     } else {
       console.error("User not found for failed payment email:", payment.email);
     }
@@ -463,7 +507,6 @@ async function handleSubscriptionUpdated(req: express.Request, res: express.Resp
   }
 }
 
-// 🎯 Handle order payment captured (for one-time payments via payment.captured event)
 async function handleOrderPaymentCaptured(payment: any, req: express.Request, res: express.Response) {
   try {
     console.log("=== ORDER PAYMENT CAPTURED ===");
@@ -474,16 +517,13 @@ async function handleOrderPaymentCaptured(payment: any, req: express.Request, re
     console.log("Payment Notes:", JSON.stringify(payment.notes, null, 2));
     console.log("===============================");
 
-    // Find user by order ID first
     let user = await User.findOne({ "razorpay.orderId": payment.order_id });
     
-    // Fallback: find user by email
     if (!user) {
       console.log("User not found by orderId, trying email:", payment.email);
       user = await User.findOne({ email: payment.email });
     }
 
-    // Fallback: find user by ID from notes
     if (!user && payment.notes?.user_id) {
       console.log("User not found by email, trying notes.user_id:", payment.notes.user_id);
       user = await User.findById(payment.notes.user_id);
@@ -554,20 +594,35 @@ async function handleOrderPaymentCaptured(payment: any, req: express.Request, re
 
     console.log("✅ USER UPDATED SUCCESSFULLY:", updateResult?.email);
 
-    // Create payment record
-    const paymentRecord = await Payment.create({
-      amount: payment.amount , // Convert from paise to rupees
-      currency: payment.currency.toLowerCase(),
-      paymentStatus: "completed",
-      paymentGateway: "razorpay",
-      paymentMethod: payment.method,
-      paymentId: payment.id,
-      user: user._id,
-      plan: plan._id,
-      purchaseDate: new Date(),
-    });
+    // Create payment record (wrapped in try-catch to ensure it doesn't fail silently)
+    try {
+      const paymentRecord = await Payment.create({
+        amount: payment.amount,
+        currency: payment.currency?.toLowerCase() || "inr",
+        paymentStatus: "completed",
+        paymentGateway: "razorpay",
+        paymentMethod: mapPaymentMethod(payment.method),
+        paymentId: payment.id,
+        invoice: payment.invoice_id || null,
+        user: user._id,
+        plan: plan._id,
+        purchaseDate: new Date(),
+      });
 
-    console.log("✅ PAYMENT RECORD CREATED:", paymentRecord._id);
+      console.log("✅ PAYMENT RECORD CREATED:", paymentRecord._id);
+    } catch (error: any) {
+      console.error("❌ FAILED TO CREATE PAYMENT RECORD:", error);
+      console.error("Payment details:", {
+        amount: payment.amount,
+        currency: payment.currency,
+        method: payment.method,
+        paymentId: payment.id,
+        userId: user._id,
+        planId: plan._id,
+      });
+      console.error("Error details:", error.message, error.errors);
+      // Don't fail the entire webhook - payment was successful, just record creation failed
+    }
 
     // Send welcome email
     try {
@@ -672,20 +727,35 @@ async function handleOrderPaid(req: express.Request, res: express.Response) {
 
     console.log("✅ USER UPDATED SUCCESSFULLY:", updateResult?.email);
 
-    // Create payment record
-    const paymentRecord = await Payment.create({
-      amount: payment.amount, // Convert from paise to rupees
-      currency: payment.currency.toLowerCase(),
-      paymentStatus: "completed",
-      paymentGateway: "razorpay",
-      paymentMethod: payment.method,
-      paymentId: payment.id,
-      user: user._id,
-      plan: plan._id,
-      purchaseDate: new Date(),
-    });
+    // Create payment record (wrapped in try-catch to ensure it doesn't fail silently)
+    try {
+      const paymentRecord = await Payment.create({
+        amount: payment.amount,
+        currency: payment.currency?.toLowerCase() || "inr",
+        paymentStatus: "completed",
+        paymentGateway: "razorpay",
+        paymentMethod: mapPaymentMethod(payment.method),
+        paymentId: payment.id,
+        invoice: payment.invoice_id || null,
+        user: user._id,
+        plan: plan._id,
+        purchaseDate: new Date(),
+      });
 
-    console.log("✅ Payment record created:", paymentRecord._id);
+      console.log("✅ Payment record created:", paymentRecord._id);
+    } catch (error: any) {
+      console.error("❌ FAILED TO CREATE PAYMENT RECORD:", error);
+      console.error("Payment details:", {
+        amount: payment.amount,
+        currency: payment.currency,
+        method: payment.method,
+        paymentId: payment.id,
+        userId: user._id,
+        planId: plan._id,
+      });
+      console.error("Error details:", error.message, error.errors);
+      // Don't fail the entire webhook - payment was successful, just record creation failed
+    }
 
     // Send welcome email
     try {
@@ -774,20 +844,35 @@ async function handleCustomWebhook(req: express.Request, res: express.Response) 
           console.error("Failed to send welcome email:", error);
         }
 
-        const paymentRecord = await Payment.create({
-          amount: payment.amount,
-          currency: payment.currency.toLowerCase(),
-          paymentStatus: "completed",
-          paymentGateway: "razorpay",
-          paymentMethod: payment.method,
-          paymentId: payment.id,
-          invoice: null,
-          user: user._id,
-          plan: plan._id,
-          purchaseDate: new Date(),
-        });
+        // Create payment record (wrapped in try-catch to ensure it doesn't fail silently)
+        try {
+          const paymentRecord = await Payment.create({
+            amount: payment.amount,
+            currency: payment.currency?.toLowerCase() || "inr",
+            paymentStatus: "completed",
+            paymentGateway: "razorpay",
+            paymentMethod: mapPaymentMethod(payment.method),
+            paymentId: payment.id,
+            invoice: payment.invoice_id || null,
+            user: user._id,
+            plan: plan._id,
+            purchaseDate: new Date(),
+          });
 
-        console.log("✅ PAYMENT RECORD CREATED:", paymentRecord);
+          console.log("✅ PAYMENT RECORD CREATED:", paymentRecord._id);
+        } catch (error: any) {
+          console.error("❌ FAILED TO CREATE PAYMENT RECORD:", error);
+          console.error("Payment details:", {
+            amount: payment.amount,
+            currency: payment.currency,
+            method: payment.method,
+            paymentId: payment.id,
+            userId: user._id,
+            planId: plan._id,
+          });
+          console.error("Error details:", error.message, error.errors);
+          // Don't fail the entire webhook - payment was successful, just record creation failed
+        }
 
         return res.json({
           message: "Custom webhook processed successfully",
